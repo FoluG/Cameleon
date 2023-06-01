@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* ----------------------main--------------------------- */
+.main-wrapper{
+    display: flex;
+    background-color: #0D1519;
+    font-family: 'inter', sans-serif;
+}
+a{
+    text-decoration: none;
+    /* color: #ADB3CC; */
+}
+/* ---------------------------left-main------------------------- */
+.cameleon-logo{
+    /* display: flex;
+    justify-content: center; */
+    margin:  41px 83px;
+}
+.left-main-wrapper{
+    box-sizing: border-box;
+    border-right: 1.5px solid #262835;
+}
+.menu-wrapper{
+    width: 290px;
+    margin: 0 28px;
+}
+.menu-wrapper a{
+    color: #ADB3CC;
+}
+.menu-wrapper p{
+    color: #55597D;
+    margin-bottom: 17.5px;
+}
+.menu{
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.msg-menu-content,
+.Invoices-menu-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.main-menu-wrap,
+.works-menu-wrap{
+    border-bottom: 0.68px dashed #55597D;
+}
+.works-menu-wrap,
+.options-menu-wrap{
+    margin-top: 36px;
+}
+.msg-menu span{
+    width: 60px;
+    height: 30px;
+    padding: 2px 6px;
+    color: #42BBFF;
+    background-color: #0C3247;
+    border-radius: 26px;
+}
+.Invoices-menu span{
+    width: 35px;
+    height: 20px;
+    padding: 2px 6px;
+    color: white;
+    background-color: #BF3931;
+    border-radius: 26px;
+}
+.msg-menu, 
+.Invoices-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.light-menu{
+    color: #55597D;
+    margin: 0 28px;
+    margin-top: 567.5px;
+    margin-bottom: 32px;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* display: flex;
+    flex-direction: column;
+    gap: 200px; */
+}
+/* ------------------------right-main-------------------------- */
+.right-main-wrapper{
+    margin-left: 28px;
+}
+/* -------------------------nav-bar------------------------ */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.search-nav{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #55597D;
+    font-size: 14px;
+}
+.user-profile-wrapper{
+    display: flex;
+    color: #ADB3CC;
+}
+/* ------------------------top-dashboard------------------------ */
+.dashboard-stats{
+    display: flex;
+    gap: 640px;
+}
+.dashboard-wrapper{
+    color: #ADB3CC;
+}
+.dashboard-wrapper h1{
+    margin-top: 44px;
+    margin-bottom: 123px;
+}
+.wrapper{
+    margin-bottom: 50px;
+}
+/* ---------------------- ----cards------------------------ */
+.dashboard-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    /* justify-content: center; */ 
+}
+.cards{
+    width: 318px;
+    height: 197px;
+    border-radius: 12px;
+    /* background-color: #1A1E30; */
+    background-color: #1A1E30;
+    padding: 24px 24px;  
+}
+.card-top-content, 
+.card-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+.cards p{
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 70px;
+    letter-spacing: -0.02cm; */
+    margin-bottom: 30px;
+    /* color: #ADB3CC; */
+}
+/* .visitors-card .cards p{
+
+} */
+.page-views-card p,
+.bounce-rates-card p{
+    color: #17B1EA;
+}
+.visitors-card p{
+    color: #DDEFFA;
+}
+.visitors-card{
+    background-color: #0329E8;
+}
+.vistors-card-top-content span{
+    color: #DDEFFA;
+}
+.page-views-card-bottom-content span,
+.new-users-card-bottom-content span,
+.online-users-card-bottom-content span{
+    color: #00DE73;
+    width: 118px;
+}
+.bounce-rates-card-bottom-content{
+    color: #F21010;
+}
+.card-right-link{
+    color: #42BBFF;
+}
+/* -------------------------table----------------------- */
+table{
+    width: 984px;
+    height: 426px;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+td, th{
+    border-bottom: 1px solid #55597D;
+}
+table a{
+    color: #0931F5;
+}
